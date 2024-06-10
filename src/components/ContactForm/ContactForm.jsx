@@ -5,6 +5,8 @@ import { nanoid } from "nanoid";
 import css from "./ContactForm.module.css";
 import { useId } from "react";
 
+
+// 1
 const ContactForm = ({ onAdd }) => {
   const nameFieldId = useId();
   const phoneFieldId = useId();
@@ -69,3 +71,5 @@ const ContactForm = ({ onAdd }) => {
 };
 
 export default ContactForm;
+
+
